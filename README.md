@@ -11,8 +11,10 @@ Repeat maps are a feature of Emacs 28, which this package requires.
 To use, you can place this file within your load-path, and add
 something like the following to your configuration:
 
+```emacs-lisp
 (require 'repeaters)
 (repeaters-define-repmaps repeaters-repmaps)
 (setq repeat-exit-key "g"
       repeat-exit-timeout 30)
 (repeat-mode)
+```
