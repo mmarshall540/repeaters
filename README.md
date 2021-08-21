@@ -4,10 +4,10 @@ be compiled from the [official git
 sources](http://savannah.gnu.org/git/?group=emacs) or the [mirror repo
 on GitHub](https://github.com/emacs-mirror/emacs).
 
+## Objective
 Easily define multiple repeat-maps in Emacs and associate them with
 commands.
 
-## Objective
 This package provides two things:
 * a convenient function for defining multiple repeat-maps for Emacs’s
   new ‘repeat-mode’, and
