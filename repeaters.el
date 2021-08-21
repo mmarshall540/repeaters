@@ -33,14 +33,14 @@
 ;; something like the following to your configuration:
 ;;
 ;; (require 'repeaters)
-;; (repeaters-define-repmaps repeaters-repmaps)
+;; (repeaters-define-maps repeaters-maps)
 ;; (setq repeat-exit-key "g"
 ;;       repeat-exit-timeout 30)
 ;; (repeat-mode)
 
 ;;; Code:
 
-(defun repeaters-define-repmaps (rlist)
+(defun repeaters-define-maps (rlist)
   "Define an arbitrary number of repeater maps.
 
 Maps are defined based on the lists passed through RLIST, a
@@ -93,7 +93,7 @@ together in sequence."
                           (setq thing thingnext)))))
              map)))))
 
-(defvar repeaters-repmaps
+(defvar repeaters-maps
   '(("buffer-switch"
      previous-buffer                   "C-x C-<left>" "C-x <left>" "C-<left>" "<left>" "p"
      next-buffer                       "C-x C-<right>" "C-x <right>" "C-<right>" "<right>" "n")
@@ -282,7 +282,7 @@ together in sequence."
   "List of lists containing repeater-map definitions.
 
 This must be in the form required by the
-‘repeaters-define-repmaps’ function.")
+‘repeaters-define-maps’ function.")
 
 (provide 'repeaters)
 ;;; repeaters.el ends here
