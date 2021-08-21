@@ -55,7 +55,7 @@ One or more command ENTRIES made up of the following:
 
     The COMMAND’s symbol;
 
-    One ore more string representations of KEY-SEQUENCES which
+    One or more string representations of KEY-SEQUENCES which
     may be used to invoke the command when the ‘repeat-map’ is
     active;
 
