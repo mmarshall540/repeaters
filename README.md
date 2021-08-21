@@ -25,7 +25,7 @@ like the following to your configuration:
 
 ```emacs-lisp
 (require 'repeaters)
-(repeaters-define-repmaps repeaters-repmaps)
+(repeaters-define-maps repeaters-maps)
 (setq repeat-exit-key "g"
       repeat-exit-timeout 30)
 (repeat-mode)
@@ -39,7 +39,7 @@ To define or re-define repeat-maps, do something like this:
 
 ```emacs-lisp
 (require 'repeaters)
-(repeaters-define-repmaps
+(repeaters-define-maps
  '(;; Yank same text repeatedly with “C-y y y y”...
    ("yank-only"
     yank                              "C-y" "y"
@@ -52,7 +52,7 @@ To define or re-define repeat-maps, do something like this:
 (repeat-mode)
 ```
 
-The ‘repeaters-define-repmaps’ function takes a single argument, which
+The ‘repeaters-define-maps’ function takes a single argument, which
 is a list of repeat-map definitions.
 
 Each definition contains the following items:
