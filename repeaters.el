@@ -122,8 +122,8 @@ together in sequence."
      delete-char                       "C-d" "d")
 
     ("sexp-nav"
-     backward-sexp                     "C-M-b" "b" "ESC M-b" ", , b"
-     forward-sexp                      "C-M-f" "f" "ESC M-f" ", , f")
+     backward-sexp                     "C-M-b" "b" "ESC M-b"
+     forward-sexp                      "C-M-f" "f" "ESC M-f")
     
     ("paragraph-nav"
      backward-paragraph                "C-<up>" "<up>" "M-{" "M-[" "{" "["
