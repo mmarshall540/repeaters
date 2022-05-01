@@ -1,8 +1,5 @@
 # repeaters
-This package requires Emacs 28, which is still in development but can
-be compiled from the [official git
-sources](http://savannah.gnu.org/git/?group=emacs) or the [mirror repo
-on GitHub](https://github.com/emacs-mirror/emacs).
+This package requires Emacs 28.
 
 ## Objective
 Easily define multiple repeat-maps in Emacs and associate them with
